@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Pingvin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Dogemon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <translation>Jen viaj Pingmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
         <source>These are your Pingvin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj dogemonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <translation>Jen viaj pingmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -215,7 +215,7 @@
     </message>
     <message>
         <source>Send coins to a Pingvin address</source>
-        <translation>Sendi monon al Dogemon-adreso</translation>
+        <translation>Sendi monon al Pingmon-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -239,7 +239,7 @@
     </message>
     <message>
         <source>Pingvin</source>
-        <translation>Dogemono</translation>
+        <translation>Pingmono</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -267,11 +267,11 @@
     </message>
     <message>
         <source>Sign messages with your Pingvin addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Dogemon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <translation>Subskribi mesaĝojn per via Pingmon-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pingvin addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Dogemon-adresoj</translation>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Pingmon-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -629,7 +629,7 @@
     </message>
     <message>
         <source>Automatically open the Pingvin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Dogemono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <translation>Aŭtomate malfermi la kursilan pordon por Pingmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1030,7 +1030,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Dogemonon</translation>
+        <translation>Sendi Pingmonon</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1214,7 +1214,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Pingvin address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Dogemon-adreso</translation>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Pingmon-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1234,7 +1234,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pingvin address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Dogemon-adreso</translation>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Pingmon-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1339,7 +1339,7 @@
     </message>
     <message>
         <source>Pingvin Core</source>
-        <translation>Kerno de Dogemono</translation>
+        <translation>Kerno de Pingmono</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

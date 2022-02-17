@@ -1,5 +1,5 @@
 <h1 align="center">
-Pingvin Core [DOGE, Ð]  
+Pingvin Core [DOGE, Ᵽ]  
 <br/><br/>
 <img src="https://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png" alt="Pingvin" width="300"/>
 </h1>
