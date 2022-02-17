@@ -96,7 +96,7 @@ RPC界面上还有由Python编写的[回归和整合测试（regression and inte
 ### 端口们
 
 - RPC 22555
-- P2P 22556
+- P2P 50696
 
 ## 开发贴士与技巧
 
