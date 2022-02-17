@@ -1,4 +1,4 @@
-# 狗狗币核心 （Pingvin Core） [DOGE, Ð]
+# 狗狗币核心 （Pingvin Core） [DOGE, Ᵽ]
 
 ![Pingvin](https://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 

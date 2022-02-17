@@ -53,5 +53,5 @@ not used for real transactions, and instead is intended for testing of experimen
 clients. Wallets and addresses are incompatible with the normal Pingvin
 network, in order to isolate the two.
 
-As "TestDoge" is essentially valueless, it can be acquired easily for testing,
+As "TestPing" is essentially valueless, it can be acquired easily for testing,
 either by mining, or from a faucet such as http://testdoge.lionservers.de/

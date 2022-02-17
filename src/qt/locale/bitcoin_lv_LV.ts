@@ -848,7 +848,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Dogekoinu</translation>
+        <translation>Sūtīt Pingkoinu</translation>
     </message>
     <message>
         <source>Coin Control Features</source>

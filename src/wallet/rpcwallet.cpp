@@ -2830,7 +2830,7 @@ UniValue bumpfee(const JSONRPCRequest& request)
 
     // Calculate the expected size of the new transaction.
     int64_t txSize = GetVirtualTransactionSize(*(wtx.tx));
-    // Doge: Round txSize up to nearest 1kB
+    // Ping: Round txSize up to nearest 1kB
     if (txSize % 1024 != 0) {
         txSize = txSize + 1024 - (txSize % 1024);
     }
