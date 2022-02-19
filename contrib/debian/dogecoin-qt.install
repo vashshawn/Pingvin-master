@@ -1,6 +1,0 @@
-usr/local/bin/pingvin-qt usr/bin
-share/pixmaps/pingvin32.xpm usr/share/pixmaps
-share/pixmaps/pingvin16.xpm usr/share/pixmaps
-share/pixmaps/pingvin128.png usr/share/pixmaps
-debian/pingvin-qt.desktop usr/share/applications
-debian/pingvin-qt.protocol usr/share/kde4/services/
