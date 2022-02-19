@@ -8,7 +8,7 @@ Clone and enter the repo:
     $ git clone https://github.com/pingvincoin/pingvincoin
     $ cd pingvincoin
 
-Enter the `nix-shell` environment with all the Dogecoin dependencies present:
+Enter the `nix-shell` environment with all the Pingvincoin dependencies present:
 
     $ nix-shell ./contrib/nixos/shell.nix
 

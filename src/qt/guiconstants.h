@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "pingvincoin"
 #define QAPP_ORG_DOMAIN "pingvincoin.org"
-#define QAPP_APP_NAME_DEFAULT "Dogecoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Dogecoin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Pingvincoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Pingvincoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

@@ -95,12 +95,12 @@
         <translation>Alamat-alamat pengirim</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Berikut merupakan alamat - alamat Dogecoinmu yang berguna untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your Pingvincoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Berikut merupakan alamat - alamat Pingvincoinmu yang berguna untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Berikut merupakan alamat - alamat Dogecoinmu yang berguna untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap kali melakukan transaksi.</translation>
+        <source>These are your Pingvincoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Berikut merupakan alamat - alamat Pingvincoinmu yang berguna untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap kali melakukan transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -291,8 +291,8 @@
         <translation>&amp;Kirim Aja</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Kirim koin ke alamat Dogecoin</translation>
+        <source>Send coins to a Pingvincoin address</source>
+        <translation>Kirim koin ke alamat Pingvincoin</translation>
     </message>
     <message>
         <source>&amp;Much Receive</source>
@@ -379,12 +379,12 @@
         <translation>Tandatangani &amp;pesan...</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Dogecoinmu untuk membuktikan bahwa kamu adalah benar-benar pemilik alamat tersebut</translation>
+        <source>Sign messages with your Pingvincoin addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Pingvincoinmu untuk membuktikan bahwa kamu adalah benar-benar pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditandatangani oleh suatu alamat Dogecoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified Pingvincoin addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditandatangani oleh suatu alamat Pingvincoin tertentu</translation>
     </message>
     <message>
         <source>Print paper wallets</source>
@@ -399,8 +399,8 @@
         <translation>Buka konsol debug dan diagnosa</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Pingvincoin</source>
+        <translation>Pingvincoin</translation>
     </message>
     <message>
         <source>&amp;Much receiving addresses...</source>
@@ -443,9 +443,9 @@
         <translation>%1 klien</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
+        <source>%n active connection(s) to Pingvincoin network</source>
         <translation>
-            <numerusform>%n koneksi aktif ke jaringan Dogecoin</numerusform>
+            <numerusform>%n koneksi aktif ke jaringan Pingvincoin</numerusform>
         </translation>
     </message>
     <message>
@@ -515,8 +515,8 @@
         <translation>Informasi</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Dogecoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible Pingvincoin command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Pingvincoin yang memungkinkan</translation>
     </message>
     <message>
         <source>Date: %1
@@ -573,8 +573,8 @@
         <translation>Dompet &lt;b&gt;terenkripsi&lt;/b&gt; dan saat ini &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
-        <translation>Terjadi kesalahan fatal. Dogecoin tidak bisa berlanjut dan akan berhenti.</translation>
+        <source>A fatal error occurred. Pingvincoin can no longer continue safely and will quit.</source>
+        <translation>Terjadi kesalahan fatal. Pingvincoin tidak bisa berlanjut dan akan berhenti.</translation>
     </message>
     <message>
         <source>Node</source>
@@ -605,7 +605,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a Dogecoin private key</source>
+        <source>Import a Pingvincoin private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -810,8 +810,8 @@
         <translation>Ubah alamat pengiriman</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
-        <translation>Kamu memasukan alamat &quot;%1&quot; yang bukan alamat Dogecoin yang valid.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pingvincoin address.</source>
+        <translation>Kamu memasukan alamat &quot;%1&quot; yang bukan alamat Pingvincoin yang valid.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -982,8 +982,8 @@
         <translation>Berhubung ini pertama kali program dijalankan, kamu bisa memilih dimana %1 akan menyimpan datanya.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Dogecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 akan mengunduh dan menyimpan salinan dari rantai blok Dogecoin. Sedikitnya %2GB akan disimpan pada direktori ini, dan akan bertambah secara berkala. Dompet juga akan disimpan dalam direktori ini.</translation>
+        <source>%1 will download and store a copy of the Pingvincoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 akan mengunduh dan menyimpan salinan dari rantai blok Pingvincoin. Sedikitnya %2GB akan disimpan pada direktori ini, dan akan bertambah secara berkala. Dompet juga akan disimpan dalam direktori ini.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1187,16 +1187,16 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port klien Dogecoin di router. Hanya berjalan apabila router kami mendukung UPnP dan sudah diaktifkan.</translation>
+        <source>Automatically open the Pingvincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port klien Pingvincoin di router. Hanya berjalan apabila router kami mendukung UPnP dan sudah diaktifkan.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Petakan port dengan &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Dogecoin melalui proxy SOCKS5.</translation>
+        <source>Connect to the Pingvincoin network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan Pingvincoin melalui proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1235,8 +1235,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Terhubung ke jaringan Dogecoin melalui proxy SOCKS5 yang terpisah untuk layanan tersembunyi Tor.</translation>
+        <source>Connect to the Pingvincoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Terhubung ke jaringan Pingvincoin melalui proxy SOCKS5 yang terpisah untuk layanan tersembunyi Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1334,8 +1334,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompetmu secara otomatis mensinkronisasi dengan jaringan Dogecoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pingvincoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompetmu secara otomatis mensinkronisasi dengan jaringan Pingvincoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1442,7 +1442,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, checkout Dogecoin repository on GitHub!</source>
+        <source>To see ongoing development and contribute, checkout Pingvincoin repository on GitHub!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1648,8 +1648,8 @@ p, li { white-space: pre-wrap; }
         <translation>Alamat pembayaran tidak valid %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI tidak bisa diterjemahkan! Bisa disebabkan karena alamat Dogecoin yang salah atau parameter URI yang tidak benar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Pingvincoin address or malformed URI parameters.</source>
+        <translation>URI tidak bisa diterjemahkan! Bisa disebabkan karena alamat Pingvincoin yang salah atau parameter URI yang tidak benar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1777,8 +1777,8 @@ p, li { white-space: pre-wrap; }
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Masukkan alamat Dogecoin (contoh. %1)</translation>
+        <source>Enter a Pingvincoin address (e.g. %1)</source>
+        <translation>Masukkan alamat Pingvincoin (contoh. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2265,8 +2265,8 @@ p, li { white-space: pre-wrap; }
         <translation>Gunakan lagi alamat penerima yang ada (tidak disarankan)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Pesan tidak wajib yang dilampirkan dalam permintaan pembayaran, yang akan ditampilkan ketika permintaan telah dibuka. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pingvincoin network.</source>
+        <translation>Pesan tidak wajib yang dilampirkan dalam permintaan pembayaran, yang akan ditampilkan ketika permintaan telah dibuka. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Pingvincoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2638,8 +2638,8 @@ p, li { white-space: pre-wrap; }
         <translation>Cuma membayar biaya yang dibutuhkan dari %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Peringatan: Alamat Dogecoin tidak valid</translation>
+        <source>Warning: Invalid Pingvincoin address</source>
+        <translation>Peringatan: Alamat Pingvincoin tidak valid</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2701,8 +2701,8 @@ p, li { white-space: pre-wrap; }
         <translation>Ini adalah pembayaran normal.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Alamat Dogecoin yang akan dikirimkan bayaran</translation>
+        <source>The Pingvincoin address to send the payment to</source>
+        <translation>Alamat Pingvincoin yang akan dikirimkan bayaran</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2745,8 +2745,8 @@ p, li { white-space: pre-wrap; }
         <translation>Masukkan label untuk alamat ini agar dimasukan ke dalam daftar alamat yang pernah digunakan</translation>
     </message>
     <message>
-        <source>A message that was attached to the pingvincoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Pesan yang dilampirkan ke pingvincoin: URI yang akan disimpan dengan transaksi sebagai referensi kamu. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Dogecoin.</translation>
+        <source>A message that was attached to the pingvincoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pingvincoin network.</source>
+        <translation>Pesan yang dilampirkan ke pingvincoin: URI yang akan disimpan dengan transaksi sebagai referensi kamu. Catatan: Pesan ini tidak akan dikirim bersama dengan pembayaran melalui jaringan Pingvincoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2798,8 +2798,8 @@ p, li { white-space: pre-wrap; }
         <translation>Pilih alamat yang digunakan sebelumnya</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Alamat Dogecoin untuk menanda tangani pesan dengan</translation>
+        <source>The Pingvincoin address to sign the message with</source>
+        <translation>Alamat Pingvincoin untuk menanda tangani pesan dengan</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2826,8 +2826,8 @@ p, li { white-space: pre-wrap; }
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemilik alamat Dogecoin ini</translation>
+        <source>Sign the message to prove you own this Pingvincoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemilik alamat Pingvincoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2850,12 +2850,12 @@ p, li { white-space: pre-wrap; }
         <translation>Masukkan alamat penerima, pesan (pastikan menyalin jeda baris, spasi, tab, dll dengan tepat) dan tanda tangan di bawah ini untuk memverifikasi pesan. Berhati-hatilah untuk tidak membaca lebih banyak ke dalam tanda tangan daripada apa yang ada di pesan yang ditandatangani itu sendiri, untuk menghindari tertipu oleh serangan man-in-the-middle. Perhatikan bahwa ini hanya membuktikan bahwa pihak yang menandatangani menerima dengan alamat tersebut, tidak dapat membuktikan pengiriman transaksi apa pun!</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Alamat Dogecoin yang digunakan telah ditandatangani dengan</translation>
+        <source>The Pingvincoin address the message was signed with</source>
+        <translation>Alamat Pingvincoin yang digunakan telah ditandatangani dengan</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verifikasi pesan untuk memastikan telah ditandatangani dengan alamat Dogecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Pingvincoin address</source>
+        <translation>Verifikasi pesan untuk memastikan telah ditandatangani dengan alamat Pingvincoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3494,8 +3494,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Pingvincoin Core</source>
+        <translation>Pingvincoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3826,7 +3826,7 @@ p, li { white-space: pre-wrap; }
         <translation>Gagal</translation>
     </message>
     <message>
-        <source>Bitcoin Core and Dogecoin Core</source>
+        <source>Bitcoin Core and Pingvincoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

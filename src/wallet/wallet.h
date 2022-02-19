@@ -66,7 +66,7 @@ static const CAmount DEFAULT_DISCARD_THRESHOLD = COIN;
 
 //! minimum recommended increment for BIP 125 replacement txs
 /*
- * Dogecoin: Scaled to 1/10th of the recommended transaction fee to make RBF
+ * Pingvincoin: Scaled to 1/10th of the recommended transaction fee to make RBF
  * cheaper than CPFP. This reduces onchain pollution by encouraging transactions
  * to be replaced in the mempool, rather than be respent by another transaction
  * which then both would have to be mined, taking up block space and increasing
@@ -75,7 +75,7 @@ static const CAmount DEFAULT_DISCARD_THRESHOLD = COIN;
  */
 static const CAmount WALLET_INCREMENTAL_RELAY_FEE = RECOMMENDED_MIN_TX_FEE / 10;
 /*
- * Dogecoin: Creating change outputs at exactly the dustlimit is counter-
+ * Pingvincoin: Creating change outputs at exactly the dustlimit is counter-
  * productive because it leaves no space to bump the fee up, so we make the
  * minimum change higher than the discard threshold.
  *
@@ -812,13 +812,13 @@ public:
      */
     static CAmount GetMinimumFee(const CMutableTransaction& tx, unsigned int nTxBytes, unsigned int nConfirmTarget, const CTxMemPool& pool, CAmount targetFee);
     /**
-     * Dogecoin: Get a fee targetting a specific transaction speed.
+     * Pingvincoin: Get a fee targetting a specific transaction speed.
      */
-    CAmount GetDogecoinPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed);
+    CAmount GetPingvincoinPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed);
     /**
-     * Dogecoin: Get a fee targetting a specific transaction speed.
+     * Pingvincoin: Get a fee targetting a specific transaction speed.
      */
-    static CAmount GetDogecoinPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed, CAmount targetFee);
+    static CAmount GetPingvincoinPriorityFee(const CMutableTransaction& tx, unsigned int nTxBytes, FeeRatePreset nSpeed, CAmount targetFee);
     /**
      * Return the minimum required fee taking into account the
      * floating relay fee and user set minimum transaction fee
@@ -826,7 +826,7 @@ public:
     static CAmount GetRequiredFee(const CMutableTransaction& tx, unsigned int nTxBytes);
     /**
      * Return the minimum required fee taking into account the
-     * floating relay fee and user set minimum transaction fee, but not the Dogecoin dust fee.
+     * floating relay fee and user set minimum transaction fee, but not the Pingvincoin dust fee.
      */
     static CAmount GetRequiredFee(unsigned int nTxBytes);
 

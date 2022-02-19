@@ -62,12 +62,12 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Dogecoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender pingvincoins.</translation>
+        <source>These are your Pingvincoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Pingvincoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender pingvincoins.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Dogecoin-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
+        <source>These are your Pingvincoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Pingvincoin-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -338,8 +338,8 @@
         <translation>Genindekserer blokke på disken…</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Send pingvincoins til en Dogecoin-adresse</translation>
+        <source>Send coins to a Pingvincoin address</source>
+        <translation>Send pingvincoins til en Pingvincoin-adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Verificér besked…</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Pingvincoin</source>
+        <translation>Pingvincoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Signér beskeder med dine Dogecoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Pingvincoin addresses to prove you own them</source>
+        <translation>Signér beskeder med dine Pingvincoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verificér beskeder for at sikre, at de er signeret med de angivne Dogecoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Pingvincoin addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er signeret med de angivne Pingvincoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,8 +434,8 @@
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Dogecoin-netværket</numerusform><numerusform>%n aktive forbindelser til Dogecoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to Pingvincoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til Pingvincoin-netværket</numerusform><numerusform>%n aktive forbindelser til Pingvincoin-netværket</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,8 +478,8 @@
         <translation>Opdateret</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Dogecoin kommandolinje</translation>
+        <source>Show the %1 help message to get a list with possible Pingvincoin command-line options</source>
+        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Pingvincoin kommandolinje</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +548,8 @@
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Dogecoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. Pingvincoin can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. Pingvincoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -742,8 +742,8 @@
         <translation>Redigér afsendelsesadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>Den indtastede adresse “%1” er ikke en gyldig Dogecoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Pingvincoin address.</source>
+        <translation>Den indtastede adresse “%1” er ikke en gyldig Pingvincoin-adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,8 +851,8 @@
         <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor %1 skal gemme sin data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Dogecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 vil downloade og gemme et kopi af Dogecoin-blokkæden. Mindst %2 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
+        <source>%1 will download and store a copy of the Pingvincoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 vil downloade og gemme et kopi af Pingvincoin-blokkæden. Mindst %2 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1048,16 +1048,16 @@
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn automatisk Dogecoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the Pingvincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn automatisk Pingvincoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Forbind til Dogecoin-netværket gennem en SOCKS5-proxy.</translation>
+        <source>Connect to the Pingvincoin network through a SOCKS5 proxy.</source>
+        <translation>Forbind til Pingvincoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Forbind til Dogecoin-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
+        <source>Connect to the Pingvincoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Forbind til Pingvincoin-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1195,8 +1195,8 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Dogecoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pingvincoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Pingvincoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1286,8 +1286,8 @@
         <translation>Ugyldig betalingsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Dogecoin-adresse eller forkert udformede URL-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Pingvincoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Pingvincoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1380,8 +1380,8 @@
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Indtast en Dogecoin-adresse (fx %1)</translation>
+        <source>Enter a Pingvincoin address (e.g. %1)</source>
+        <translation>Indtast en Pingvincoin-adresse (fx %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1804,8 +1804,8 @@
         <translation>&amp;Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Dogecoin-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pingvincoin network.</source>
+        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Pingvincoin-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2201,8 +2201,8 @@
         <translation><numerusform>Bekræftelse estimeret til at begynde om %n blok.</numerusform><numerusform>Bekræftelse estimeret til at begynde om %n blokke.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Advarsel: Ugyldig Dogecoin-adresse</translation>
+        <source>Warning: Invalid Pingvincoin address</source>
+        <translation>Advarsel: Ugyldig Pingvincoin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2244,8 +2244,8 @@
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>Dogecoin-adresse, som betalingen skal sendes til</translation>
+        <source>The Pingvincoin address to send the payment to</source>
+        <translation>Pingvincoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2288,8 +2288,8 @@
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the pingvincoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>En besked, som blev føjet til “bitcon:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Dogecoin-netværket.</translation>
+        <source>A message that was attached to the pingvincoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pingvincoin network.</source>
+        <translation>En besked, som blev føjet til “bitcon:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Pingvincoin-netværket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2337,8 +2337,8 @@
         <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage pingvincoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>Dogecoin-adresse, som beskeden skal signeres med</translation>
+        <source>The Pingvincoin address to sign the message with</source>
+        <translation>Pingvincoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2369,8 +2369,8 @@
         <translation>Kopiér den nuværende signatur til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Signér denne besked for at bevise, at Dogecoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Pingvincoin address</source>
+        <translation>Signér denne besked for at bevise, at Pingvincoin-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2393,12 +2393,12 @@
         <translation>Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>Dogecoin-adressen, som beskeden blev signeret med</translation>
+        <source>The Pingvincoin address the message was signed with</source>
+        <translation>Pingvincoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne Dogecoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Pingvincoin address</source>
+        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne Pingvincoin-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3058,8 +3058,8 @@
         <translation>Kunne ikke starte HTTP-server. Se fejlretningslog for detaljer.</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Pingvincoin Core</source>
+        <translation>Pingvincoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

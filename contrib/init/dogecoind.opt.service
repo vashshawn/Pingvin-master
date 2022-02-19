@@ -8,7 +8,7 @@
 #/var/opt/pingvincoin/
 
 [Unit]
-Description=Dogecoin's distributed currency daemon
+Description=Pingvincoin's distributed currency daemon
 After=network.target
 
 [Service]

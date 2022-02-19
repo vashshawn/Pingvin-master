@@ -25,7 +25,7 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Dogecoin Core
+Build Pingvincoin Core
 ------------------------
 
 1. Clone the pingvincoin source code and cd into `pingvincoin`
@@ -54,19 +54,19 @@ Build Dogecoin Core
 Running
 -------
 
-Dogecoin Core is now available at `./src/pingvincoind`
+Pingvincoin Core is now available at `./src/pingvincoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=pingvincoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Dogecoin/pingvincoin.conf"
+    echo -e "rpcuser=pingvincoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Pingvincoin/pingvincoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Dogecoin/pingvincoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Pingvincoin/pingvincoin.conf"
 
 The first time you run pingvincoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Dogecoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Pingvincoin/debug.log
 
 Other commands:
 -------

@@ -1,7 +1,7 @@
 WINDOWS BUILD NOTES
 ====================
 
-Below are some notes on how to build Dogecoin Core for Windows.
+Below are some notes on how to build Pingvincoin Core for Windows.
 
 Most developers use cross-compilation from Ubuntu to build executables for
 Windows. This is also used to build the release binaries.
@@ -74,7 +74,7 @@ For Ubuntu 18.04 and 20.04, set the default mingw32 g++ compiler option to posix
 
 ...Choose the "posix" (vs 'auto' or 'win32') option, and continue.
 
-Note that for WSL v1 the Dogecoin Core source path MUST be somewhere in the default mount file system, for
+Note that for WSL v1 the Pingvincoin Core source path MUST be somewhere in the default mount file system, for
 example /usr/src/pingvincoin, AND not under, for example, /mnt/d/pingvincoin. 
 
 If this is not the case the dependency autoconf scripts will fail (silently.)

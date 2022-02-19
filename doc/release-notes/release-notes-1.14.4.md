@@ -1,4 +1,4 @@
-Dogecoin Core version 1.14.4 is now available from:
+Pingvincoin Core version 1.14.4 is now available from:
 
   <https://github.com/pingvincoin/pingvincoin/releases/tag/v1.14.4/>
 
@@ -12,15 +12,15 @@ Please report bugs using the issue tracker at github:
 To receive security and update notifications, please watch reddit or Twitter:
 
   * https://www.reddit.com/r/pingvincoin/
-  * @Dogecoin on Twitter for high priority announcements
+  * @Pingvincoin on Twitter for high priority announcements
   * @pingvincoin\_devs on Twitter for updates on development work
 
 Compatibility
 ==============
 
-Dogecoin Core is extensively tested on Ubuntu Server LTS, Mac OS X and Windows 10.
+Pingvincoin Core is extensively tested on Ubuntu Server LTS, Mac OS X and Windows 10.
 
-Dogecoin Core should also work on most other Unix-like systems but is not
+Pingvincoin Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable changes
@@ -32,7 +32,7 @@ Enabling Future Fee Reductions
 This release preparing the network for a reduction of the recommended fees by
 reducing the default fee requirement 1000x for transaction relay and 100x for
 mining. At the same time it increases freedom for miner, wallet and node
-operators to agree on fees regardless of defaults coded into the Dogecoin Core
+operators to agree on fees regardless of defaults coded into the Pingvincoin Core
 software by solidifying fine-grained controls for operators to deviate from
 built-in defaults.
 

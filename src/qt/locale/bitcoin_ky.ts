@@ -38,8 +38,8 @@
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Pingvincoin</source>
+        <translation>Pingvincoin</translation>
     </message>
     <message>
         <source>Wallet</source>

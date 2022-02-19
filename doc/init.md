@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/pingvincoind`  
-Configuration file:  `~/Library/Application Support/Dogecoin/pingvincoin.conf`  
-Data directory:      `~/Library/Application Support/Dogecoin`
-Lock file:           `~/Library/Application Support/Dogecoin/.lock`
+Configuration file:  `~/Library/Application Support/Pingvincoin/pingvincoin.conf`  
+Data directory:      `~/Library/Application Support/Pingvincoin`
+Lock file:           `~/Library/Application Support/Pingvincoin/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

@@ -1,8 +1,8 @@
 name: pingvincoin-core # you probably want to 'snapcraft register <name>'
 version: '1.14.5'
-summary: Reference client of Dogecoin, a peer-to-peer digital currency like Bitcoin.
+summary: Reference client of Pingvincoin, a peer-to-peer digital currency like Bitcoin.
 description: |
-  Dogecoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, Dogecoin currently employs a simplified variant of scrypt. MIT licenced.
+  Pingvincoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, Pingvincoin currently employs a simplified variant of scrypt. MIT licenced.
 
 base: core18
 grade: stable
@@ -48,12 +48,12 @@ parts:
       tar -xvf pingvincoin-${SNAPCRAFT_PROJECT_VERSION}-${SNAPCRAFT_ARCH_TRIPLET}.tar.gz
       echo "Running tests..."
       if ! (pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/test_pingvincoin); then
-        echo "Dogecoin tests failed."
+        echo "Pingvincoin tests failed."
         return
       else
-        echo "Dogecoin tests passed."
+        echo "Pingvincoin tests passed."
       fi
-      echo "Installing Dogecoin..."
+      echo "Installing Pingvincoin..."
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/pingvincoind
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/pingvincoin-qt
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/pingvincoin-cli

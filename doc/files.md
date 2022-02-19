@@ -1,4 +1,4 @@
-# Dogecoin Core file system
+# Pingvincoin Core file system
 
 **Contents**
 
@@ -10,15 +10,15 @@
 
 ## Data directory location
 
-The data directory is the default location where the Dogecoin Core files are stored.
+The data directory is the default location where the Pingvincoin Core files are stored.
 
 1. The default data directory paths for supported platforms are:
 
 Platform | Data directory path
 ---------|--------------------
 Linux    | `$HOME/.pingvincoin/`
-macOS    | `$HOME/Library/Application Support/Dogecoin/`
-Windows  | `%APPDATA%\Dogecoin\` <sup>[\[1\]](#note1)</sup>
+macOS    | `$HOME/Library/Application Support/Pingvincoin/`
+Windows  | `%APPDATA%\Pingvincoin\` <sup>[\[1\]](#note1)</sup>
 
 2. A custom data directory path can be specified with the `-datadir` option.
 
@@ -60,7 +60,7 @@ Subdirectory       | File(s)               | Description
 
 ## Legacy subdirectories and files
 
-These subdirectories and files are no longer used by Dogecoin Core:
+These subdirectories and files are no longer used by Pingvincoin Core:
 
 Path           | Description
 ---------------|-------------

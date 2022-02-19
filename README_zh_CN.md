@@ -1,6 +1,6 @@
-# 狗狗币核心 （Dogecoin Core） [DOGE, Ð]
+# 狗狗币核心 （Pingvincoin Core） [DOGE, Ð]
 
-![Dogecoin](https://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
+![Pingvincoin](https://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
 [![Build Status](https://travis-ci.com/pingvincoin/pingvincoin.svg?branch=master)](https://travis-ci.com/pingvincoin/pingvincoin)
 
@@ -53,37 +53,37 @@ RPC界面上还有由Python编写的[回归和整合测试（regression and inte
 
 **目前的区块奖励机制:**
 
-1–99,999: 0–1,000,000 Dogecoin
+1–99,999: 0–1,000,000 Pingvincoin
 
-100,000–144,999: 0–500,000 Dogecoin
+100,000–144,999: 0–500,000 Pingvincoin
 
-145,000–199,999: 250,000 Dogecoin
+145,000–199,999: 250,000 Pingvincoin
 
-200,000–299,999: 125,000 Dogecoin
+200,000–299,999: 125,000 Pingvincoin
 
-300,000–399,999: 62,500 Dogecoin
+300,000–399,999: 62,500 Pingvincoin
 
-400,000–499,999: 31,250 Dogecoin
+400,000–499,999: 31,250 Pingvincoin
 
-500,000–599,999: 15,625 Dogecoin
+500,000–599,999: 15,625 Pingvincoin
 
-600,000+: 10,000 Dogecoin
+600,000+: 10,000 Pingvincoin
 
 **原先的区块奖励机制（一分钟区块和四小时难度调整）:**
 
-1–99,999: 0–1,000,000 Dogecoin
+1–99,999: 0–1,000,000 Pingvincoin
 
-100,000–199,999: 0–500,000 Dogecoin
+100,000–199,999: 0–500,000 Pingvincoin
 
-200,000–299,999: 0–250,000 Dogecoin
+200,000–299,999: 0–250,000 Pingvincoin
 
-300,000–399,999: 0–125,000 Dogecoin
+300,000–399,999: 0–125,000 Pingvincoin
 
-400,000–499,999: 0–62,500 Dogecoin
+400,000–499,999: 0–62,500 Pingvincoin
 
-500,000–599,999: 0–31,250 Dogecoin
+500,000–599,999: 0–31,250 Pingvincoin
 
-600,000+: 10,000 Dogecoin
+600,000+: 10,000 Pingvincoin
 
 ### 请编译我吧 / Wow plz make pingvincoind/pingvincoin-cli/pingvincoin-qt
 

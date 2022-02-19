@@ -114,8 +114,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Pingvincoin</source>
+        <translation>Pingvincoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -484,8 +484,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Craidd Dogecoin</translation>
+        <source>Pingvincoin Core</source>
+        <translation>Craidd Pingvincoin</translation>
     </message>
     <message>
         <source>Information</source>

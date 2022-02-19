@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Dogecoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Pingvincoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Pingvincoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Dogecoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your Pingvincoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u Pingvincoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -330,8 +330,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Stuur munte na 'n Dogecoin adres</translation>
+        <source>Send coins to a Pingvincoin address</source>
+        <translation>Stuur munte na 'n Pingvincoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +350,8 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Pingvincoin</source>
+        <translation>Pingvincoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +378,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Dogecoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Pingvincoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Pingvincoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Dogecoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Pingvincoin addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Pingvincoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -948,8 +948,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Kern</translation>
+        <source>Pingvincoin Core</source>
+        <translation>Pingvincoin Kern</translation>
     </message>
     <message>
         <source>Information</source>

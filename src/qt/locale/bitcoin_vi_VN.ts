@@ -186,8 +186,8 @@
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Gửi coins đến tài khoản Dogecoin</translation>
+        <source>Send coins to a Pingvincoin address</source>
+        <translation>Gửi coins đến tài khoản Pingvincoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +206,8 @@
         <translation>&amp;Tin nhắn xác thực</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Pingvincoin</source>
+        <translation>Pingvincoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -234,12 +234,12 @@
         <translation>Mã hoá các khoá bí mật trong Ví của bạn.</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Dùng địa chỉ Dogecoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
+        <source>Sign messages with your Pingvincoin addresses to prove you own them</source>
+        <translation>Dùng địa chỉ Pingvincoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Dogecoin xác định.</translation>
+        <source>Verify messages to ensure they were signed with specified Pingvincoin addresses</source>
+        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Pingvincoin xác định.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pingvincoin: URIs)</source>
-        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Dogecoin: URLs)</translation>
+        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Pingvincoin: URLs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -536,8 +536,8 @@
         <translation>Ví</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Kết nối đến máy chủ Dogecoin thông qua SOCKS5 proxy.</translation>
+        <source>Connect to the Pingvincoin network through a SOCKS5 proxy.</source>
+        <translation>Kết nối đến máy chủ Pingvincoin thông qua SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1018,8 +1018,8 @@
         <translation>Lựa chọn:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Pingvincoin Core</source>
+        <translation>Pingvincoin Core</translation>
     </message>
     <message>
         <source>(default: %u)</source>

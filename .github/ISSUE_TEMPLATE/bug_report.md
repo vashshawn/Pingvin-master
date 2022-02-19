@@ -4,10 +4,10 @@ about: Create a report to help us improve
 title: '[bug] '
 ---
 
-<!-- Please make sure you are posting an technical issue related to Dogecoin Core. --> 
+<!-- Please make sure you are posting an technical issue related to Pingvincoin Core. --> 
 
-<!-- For general questions about Dogecoin or wallet recovery please use one of the various communities:
-* [Dogeducation on reddit](https://www.reddit.com/r/dogeducation/)
+<!-- For general questions about Pingvincoin or wallet recovery please use one of the various communities:
+* [Pingducation on reddit](https://www.reddit.com/r/pingducation/)
 * [Discord](https://discord.com/invite/pingvincoin) -->
 
 <!-- ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION. -->
@@ -26,7 +26,7 @@ title: '[bug] '
 **Screenshots**
 <!-- If the issue is related to the GUI, screenshots can be added to this issue via drag & drop. -->
 
-**Dogecoin Core version**
+**Pingvincoin Core version**
 <!-- List the version number/commit ID, and if it is an official binary, self compiled or a distribution package such as PPA. -->
 
 **Machine specs**

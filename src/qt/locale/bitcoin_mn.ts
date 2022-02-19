@@ -126,7 +126,7 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
+        <source>Pingvincoin</source>
         <translation>Биткойн</translation>
     </message>
     <message>

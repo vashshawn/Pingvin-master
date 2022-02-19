@@ -196,7 +196,7 @@ jobs:
           path: ~/.ccache
           key: ${{ matrix.name }}-${{ env.cache-name }}-${{ hashFiles('**/configure.ac') }}
 
-      - name: Build Dogecoin
+      - name: Build Pingvincoin
         run: |
           depends/${{ matrix.host }}/native/bin/ccache --max-size=$CCACHE_SIZE
           ./autogen.sh
@@ -224,4 +224,4 @@ jobs:
           name: pingvincoin-${{ github.sha }}-${{ matrix.name }}
           path: |
             depends/${{ matrix.host }}/bin/pingvincoin*
-            dist/Dogecoin-Qt.app
+            dist/Pingvincoin-Qt.app

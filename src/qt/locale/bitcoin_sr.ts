@@ -130,7 +130,7 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
+        <source>Send coins to a Pingvincoin address</source>
         <translation>Пошаљите новац на pingvincoin адресу</translation>
     </message>
     <message>
