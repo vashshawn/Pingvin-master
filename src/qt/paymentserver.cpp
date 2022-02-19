@@ -237,7 +237,7 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
             PaymentRequestPlus request;
             if (readPaymentRequestFromFile(arg, request))
             {
-                if (request.getDetails().genesis() == "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691")
+                if (request.getDetails().genesis() == "c3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908")
                 {
                     SelectParams(CBaseChainParams::MAIN);
                 }
