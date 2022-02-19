@@ -70,7 +70,7 @@ sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono
 
 **Optional dependencies** :  
 ```bash
-# Qt (required for dogecoin-qt GUI)
+# Qt (required for pingvincoin-qt GUI)
 sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev
 
 # BerkeleyDB (version 5.3)
@@ -85,7 +85,7 @@ sudo apt-get install libminiupnpc-dev
 
 ## Build steps
 
-According to installed dependencies, the following steps will compile `dogecoind`, `dogecoin-cli` and `dogecoin-qt`.
+According to installed dependencies, the following steps will compile `pingvincoind`, `pingvincoin-cli` and `pingvincoin-qt`.
 
 ```bash
 ./autogen.sh
@@ -100,7 +100,7 @@ See [Build configuration](#build-configuration) for extra settings.
 Configurations are done during the `./configure` step. Use `--help` to see all available options.
 
 #### Enable Qt GUI
-Create `dogecoin-qt`, the core wallet GUI.
+Create `pingvincoin-qt`, the core wallet GUI.
 ```bash
 ./configure --with-gui
 ```
@@ -188,7 +188,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-	`scanelf -e ./dogecoin`
+	`scanelf -e ./pingvincoin`
 
     The output should contain:
 
@@ -202,7 +202,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling, use:
-    `scanelf -e ./dogecoin`
+    `scanelf -e ./pingvincoin`
 
     the output should contain:
     `STK/REL/PTL RW- R-- RW-`

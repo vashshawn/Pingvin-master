@@ -2,12 +2,12 @@
 
 ![Dogecoin](https://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
-[![Build Status](https://travis-ci.com/dogecoin/dogecoin.svg?branch=master)](https://travis-ci.com/dogecoin/dogecoin)
+[![Build Status](https://travis-ci.com/pingvincoin/pingvincoin.svg?branch=master)](https://travis-ci.com/pingvincoin/pingvincoin)
 
 选择文档语言: [英文](../README.md) | 简体中文 | [其他语言...](./README_zh_CN.md)
 
 尽管狗狗币不使用SHA256作为它的工作量证明（POW），狗狗币也是一款类似Bitcoin的加密货币。受到Tenebrix和Litecoin的影响，狗狗币目前采用一种更简洁的加密方式。
-- **网址:** [dogecoin.com.](https://dogecoin.com)
+- **网址:** [pingvincoin.com.](https://pingvincoin.com)
 
 ## 证书 – 炫酷的证书 ⚖️
 狗狗币在MIT liscence的条款下发行。详情请参见
@@ -85,7 +85,7 @@ RPC界面上还有由Python编写的[回归和整合测试（regression and inte
 
 600,000+: 10,000 Dogecoin
 
-### 请编译我吧 / Wow plz make dogecoind/dogecoin-cli/dogecoin-qt
+### 请编译我吧 / Wow plz make pingvincoind/pingvincoin-cli/pingvincoin-qt
 
   以下是开发者的笔记，教你如何在你自己的平台上搭建狗狗币。这些不是什么权威指南，但包含了必要的libary, 编译flag 等等。
 

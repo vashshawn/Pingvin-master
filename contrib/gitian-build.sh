@@ -18,7 +18,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/dogecoin/dogecoin
+url=https://github.com/pingvincoin/pingvincoin
 proc=2
 mem=2000
 lxc=true
@@ -32,7 +32,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the dogecoin, gitian-builder, gitian.sigs, and dogecoin-detached-sigs.
+Run this script from the directory containing the pingvincoin, gitian-builder, gitian.sigs, and pingvincoin-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -40,7 +40,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/dogecoin/dogecoin
+-u|--url	Specify the URL of the repository. Default is https://github.com/pingvincoin/pingvincoin
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -246,8 +246,8 @@ then
     fi
 
     # GIT CLONE
-    git clone https://github.com/dogecoin/gitian.sigs.git
-    git clone https://github.com/dogecoin/dogecoin-detached-sigs.git
+    git clone https://github.com/pingvincoin/gitian.sigs.git
+    git clone https://github.com/pingvincoin/pingvincoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -261,7 +261,7 @@ then
 fi
 
 # Set up build
-pushd ./dogecoin
+pushd ./pingvincoin
 git fetch
 git checkout ${COMMIT}
 popd
@@ -270,7 +270,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./dogecoin-binaries/${VERSION}
+	mkdir -p ./pingvincoin-binaries/${VERSION}
 	
 	# Build Dependencies
 	echo ""
@@ -280,7 +280,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -j "${proc}" -C ../dogecoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -j "${proc}" -C ../pingvincoin/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -288,9 +288,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit dogecoin=${COMMIT} --url dogecoin=${url} ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/dogecoin-*.tar.gz build/out/src/dogecoin-*.tar.gz ../dogecoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit pingvincoin=${COMMIT} --url pingvincoin=${url} ../pingvincoin/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../pingvincoin/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/pingvincoin-*.tar.gz build/out/src/pingvincoin-*.tar.gz ../pingvincoin-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -298,10 +298,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit dogecoin=${COMMIT} --url dogecoin=${url} ../dogecoin/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/dogecoin-*-win-unsigned.tar.gz inputs/dogecoin-win-unsigned.tar.gz
-	    mv build/out/dogecoin-*.zip build/out/dogecoin-*.exe ../dogecoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit pingvincoin=${COMMIT} --url pingvincoin=${url} ../pingvincoin/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../pingvincoin/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/pingvincoin-*-win-unsigned.tar.gz inputs/pingvincoin-win-unsigned.tar.gz
+	    mv build/out/pingvincoin-*.zip build/out/pingvincoin-*.exe ../pingvincoin-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -309,10 +309,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit dogecoin=${COMMIT} --url dogecoin=${url} ../dogecoin/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/dogecoin-*-osx-unsigned.tar.gz inputs/dogecoin-osx-unsigned.tar.gz
-	    mv build/out/dogecoin-*.tar.gz build/out/dogecoin-*.dmg ../dogecoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit pingvincoin=${COMMIT} --url pingvincoin=${url} ../pingvincoin/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../pingvincoin/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/pingvincoin-*-osx-unsigned.tar.gz inputs/pingvincoin-osx-unsigned.tar.gz
+	    mv build/out/pingvincoin-*.tar.gz build/out/pingvincoin-*.dmg ../pingvincoin-binaries/${VERSION}
 	fi
 	popd
 
@@ -339,27 +339,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../pingvincoin/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../dogecoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../pingvincoin/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX	
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""	
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../dogecoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../pingvincoin/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../dogecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../pingvincoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../dogecoin/contrib/gitian-descriptors/gitian-osx-signer.yml	
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../pingvincoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -374,10 +374,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../dogecoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/dogecoin-*win64-setup.exe ../dogecoin-binaries/${VERSION}
-	    mv build/out/dogecoin-*win32-setup.exe ../dogecoin-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../pingvincoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../pingvincoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/pingvincoin-*win64-setup.exe ../pingvincoin-binaries/${VERSION}
+	    mv build/out/pingvincoin-*win32-setup.exe ../pingvincoin-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -385,9 +385,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../dogecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/dogecoin-osx-signed.dmg ../dogecoin-binaries/${VERSION}/dogecoin-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../pingvincoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../pingvincoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/pingvincoin-osx-signed.dmg ../pingvincoin-binaries/${VERSION}/pingvincoin-${VERSION}-osx.dmg
 	fi
 	popd
 

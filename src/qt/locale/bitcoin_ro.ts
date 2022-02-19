@@ -214,12 +214,12 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și dogecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and pingvincoin: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și pingvincoin: URIs)</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Deschide un dogecoin: URI sau cerere de plată</translation>
+        <source>Open a pingvincoin: URI or payment request</source>
+        <translation>Deschide un pingvincoin: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>

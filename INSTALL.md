@@ -4,7 +4,7 @@
 
 The easiest way to install the latest version of the Dogecoin Core software is
 by to download the latest precompiled binaries for your platform from the
-[release page](https://github.com/dogecoin/dogecoin/releases). Currently,
+[release page](https://github.com/pingvincoin/pingvincoin/releases). Currently,
 binaries are released for the following platforms:
 
 - Windows, 64-bit and 32-bit
@@ -65,7 +65,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the `-testnet` option to run with "play dogecoins" on the test network, if you
+Run with the `-testnet` option to run with "play pingvincoins" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the `-regtest` option.

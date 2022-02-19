@@ -103,8 +103,8 @@ namespace boost {
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "dogecoin.conf";
-const char * const BITCOIN_PID_FILENAME = "dogecoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "pingvincoin.conf";
+const char * const BITCOIN_PID_FILENAME = "pingvincoind.pid";
 
 CCriticalSection cs_args;
 map<string, string> mapArgs;
@@ -501,7 +501,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Dogecoin";
 #else
     // Unix
-    return pathRet / ".dogecoin";
+    return pathRet / ".pingvincoin";
 #endif
 #endif
 }
