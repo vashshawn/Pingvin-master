@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
     const char* pszTimestamp = "nootnoot";
-    const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
+    const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -152,13 +152,13 @@ public:
         nDefaultPort = 50696;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1645127935, 2085813190, 0x1e0ffff0, 1, 88 * COIN);
+        genesis = CreateGenesisBlock(1645127935, 2085885799, 0x1e0ffff0, 1, 88 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0xc446fa8163b874e55f86379964d5ebbca3a4b58151354c7de185b6a8603d2fa9"));
-        assert(genesis.hashMerkleRoot == uint256S("0x7dc7632c760c3598b5d108b217670fc8826ae89cbd01abd1eee0c5ef87378b91"));
+        assert(consensus.hashGenesisBlock == uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908"));
+        assert(genesis.hashMerkleRoot == uint256S("0x28a0290adaafabe67a5db1c22036fb9f5f17988bd3691ca4c18f52c0e1b56a2c"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.push_back(CDNSSeedData("multiping.org", "seed.multiping.org", true));
@@ -179,7 +179,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (      0, uint256S("0xc446fa8163b874e55f86379964d5ebbca3a4b58151354c7de185b6a8603d2fa9"))
+            (      0, uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908"))
         };
 
         chainTxData = ChainTxData{
@@ -188,7 +188,7 @@ public:
             1645127935, // * UNIX timestamp of last checkpoint block
             0,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0        // * estimated number of transactions per second after checkpoint
+            0.0        // * estimated number of transactions per second after checkpoint
         };
     }
 };
