@@ -408,10 +408,11 @@ public:
 
         genesis = CreateGenesisBlock(1296688602, 2, 0x207fffff, 1, 88 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
+        std::cout << consensus.hashGenesisBlock.ToString() << std::endl;
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x3d2160a3b5dc4a9d62e7e66a295f70313ac808440ef7400d6c0772171ce973a5"));
-        assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
+        assert(consensus.hashGenesisBlock == uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb8e51f89059f139a8b0a85e252e39b35c1e474350c6bb86705234c4d9532f7a8"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
@@ -423,7 +424,7 @@ public:
 
         checkpointData = (CCheckpointData){
                 boost::assign::map_list_of
-                        ( 0, uint256S("0x3d2160a3b5dc4a9d62e7e66a295f70313ac808440ef7400d6c0772171ce973a5"))
+                        ( 0, uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"))
         };
 
         chainTxData = ChainTxData{
