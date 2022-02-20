@@ -80,10 +80,10 @@ public:
         consensus.nMajorityRejectBlockOutdated = 1900;
         consensus.nMajorityWindow = 2000;
         // BIP34 is never enforced in Pingvincoin v2 blocks, so we enforce from v3
-        consensus.BIP34Height = 0;
+        consensus.BIP34Height = 1;
         consensus.BIP34Hash = uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908");
-        consensus.BIP65Height = 0; // 0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908 - first v4 block after the last v3 block
-        consensus.BIP66Height = 0; // 0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908 - this is the last block that could be v2, 1900 blocks past the last v2 block
+        consensus.BIP65Height = 1; // 0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908 - first v4 block after the last v3 block
+        consensus.BIP66Height = 1; // 0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 4 * 60 * 60; // pre-digishield: 4 hours
         consensus.nPowTargetSpacing = 60; // 1 minute
@@ -183,12 +183,12 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data as of block e4b4ecda4c022406c502a247c0525480268ce7abbbef632796e8ca1646425e75 (height 3854173).
+/*            // Data as of block e4b4ecda4c022406c502a247c0525480268ce7abbbef632796e8ca1646425e75 (height 3854173).
             // Tx estimate based on average of year 2021 (~40k transactions per day)
             1645127935, // * UNIX timestamp of last checkpoint block
             0,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0.0        // * estimated number of transactions per second after checkpoint
+            0.0        // * estimated number of transactions per second after checkpoint*/
         };
     }
 };
