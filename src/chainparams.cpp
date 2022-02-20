@@ -82,9 +82,9 @@ public:
         consensus.nMajorityWindow = 2000;
         // BIP34 is never enforced in Pingvincoin v2 blocks, so we enforce from v3
         consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908");
-        consensus.BIP65Height = 1; // 0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908 - first v4 block after the last v3 block
-        consensus.BIP66Height = 1; // 0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908 - this is the last block that could be v2, 1900 blocks past the last v2 block
+        consensus.BIP34Hash = uint256S("0x954e3bc3c12cce697fe489b9bb2a2c427560db599ac12c96217e5a502a50ff99");
+        consensus.BIP65Height = 1; // 0x954e3bc3c12cce697fe489b9bb2a2c427560db599ac12c96217e5a502a50ff99 - first v4 block after the last v3 block
+        consensus.BIP66Height = 1; // 0x954e3bc3c12cce697fe489b9bb2a2c427560db599ac12c96217e5a502a50ff99 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 4 * 60 * 60; // pre-digishield: 4 hours
         consensus.nPowTargetSpacing = 60; // 1 minute
@@ -181,7 +181,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (      0, uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908"))
+            (      0, uint256S("0x954e3bc3c12cce697fe489b9bb2a2c427560db599ac12c96217e5a502a50ff99"))
         };
 
         chainTxData = ChainTxData{
@@ -220,10 +220,10 @@ public:
         consensus.nMajorityRejectBlockOutdated = 750;
         consensus.nMajorityWindow = 1000;
         // BIP34 is never enforced in Dogecoin v2 blocks, so we enforce from v3
-        consensus.BIP34Height = 708658;
+        consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38");
-        consensus.BIP65Height = 1854705; // 955bd496d23790aba1ecfacb722b089a6ae7ddabaedf7d8fb0878f48308a71f9
-        consensus.BIP66Height = 708658; // 21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38 - this is the last block that could be v2, 1900 blocks past the last v2 block
+        consensus.BIP65Height = 0; // 955bd496d23790aba1ecfacb722b089a6ae7ddabaedf7d8fb0878f48308a71f9
+        consensus.BIP66Height = 0; // 21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 4 * 60 * 60; // pre-digishield: 4 hours
         consensus.nPowTargetSpacing = 60; // 1 minute
@@ -246,7 +246,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000001030d1382ade");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x6943eaeaba98dc7d09f7e73398daccb4abcabb18b66c8c875e52b07638d93951"); // 900,000
@@ -293,6 +293,7 @@ public:
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1391503289, 997879, 0x1e0ffff0, 1, 88 * COIN);
+        std::cout << consensus.hashGenesisBlock.ToString() << std::endl;
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
