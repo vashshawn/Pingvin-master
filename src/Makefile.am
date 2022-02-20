@@ -24,23 +24,23 @@ BITCOIN_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BDB_CPPFLAGS) $(BOOST_CPPFLAG
 BITCOIN_INCLUDES += -I$(srcdir)/secp256k1/include
 BITCOIN_INCLUDES += $(UNIVALUE_CFLAGS)
 
-LIBDOGECOIN_SERVER=libpingvincoin_server.a
-LIBDOGECOIN_COMMON=libpingvincoin_common.a
-LIBDOGECOIN_CONSENSUS=libpingvincoin_consensus.a
-LIBDOGECOIN_CLI=libpingvincoin_cli.a
-LIBDOGECOIN_UTIL=libpingvincoin_util.a
-LIBDOGECOIN_CRYPTO=crypto/libpingvincoin_crypto.a
-LIBDOGECOINQT=qt/libpingvincoinqt.a
+LIBPINGVINCOIN_SERVER=libpingvincoin_server.a
+LIBPINGVINCOIN_COMMON=libpingvincoin_common.a
+LIBPINGVINCOIN_CONSENSUS=libpingvincoin_consensus.a
+LIBPINGVINCOIN_CLI=libpingvincoin_cli.a
+LIBPINGVINCOIN_UTIL=libpingvincoin_util.a
+LIBPINGVINCOIN_CRYPTO=crypto/libpingvincoin_crypto.a
+LIBPINGVINCOINQT=qt/libpingvincoinqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
 if ENABLE_ZMQ
-LIBDOGECOIN_ZMQ=libpingvincoin_zmq.a
+LIBPINGVINCOIN_ZMQ=libpingvincoin_zmq.a
 endif
 if BUILD_BITCOIN_LIBS
-LIBDOGECOINCONSENSUS=libpingvincoinconsensus.la
+LIBPINGVINCOINCONSENSUS=libpingvincoinconsensus.la
 endif
 if ENABLE_WALLET
-LIBDOGECOIN_WALLET=libpingvincoin_wallet.a
+LIBPINGVINCOIN_WALLET=libpingvincoin_wallet.a
 endif
 
 $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
@@ -49,16 +49,16 @@ $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
 # But to build the less dependent modules first, we manually select their order here:
 EXTRA_LIBRARIES += \
-  $(LIBDOGECOIN_CRYPTO) \
-  $(LIBDOGECOIN_UTIL) \
-  $(LIBDOGECOIN_COMMON) \
-  $(LIBDOGECOIN_CONSENSUS) \
-  $(LIBDOGECOIN_SERVER) \
-  $(LIBDOGECOIN_CLI) \
-  $(LIBDOGECOIN_WALLET) \
-  $(LIBDOGECOIN_ZMQ)
+  $(LIBPINGVINCOIN_CRYPTO) \
+  $(LIBPINGVINCOIN_UTIL) \
+  $(LIBPINGVINCOIN_COMMON) \
+  $(LIBPINGVINCOIN_CONSENSUS) \
+  $(LIBPINGVINCOIN_SERVER) \
+  $(LIBPINGVINCOIN_CLI) \
+  $(LIBPINGVINCOIN_WALLET) \
+  $(LIBPINGVINCOIN_ZMQ)
 
-lib_LTLIBRARIES = $(LIBDOGECOINCONSENSUS)
+lib_LTLIBRARIES = $(LIBPINGVINCOINCONSENSUS)
 
 bin_PROGRAMS =
 noinst_PROGRAMS =
@@ -383,14 +383,14 @@ pingvincoind_SOURCES += bitcoind-res.rc
 endif
 
 pingvincoind_LDADD = \
-  $(LIBDOGECOIN_SERVER) \
-  $(LIBDOGECOIN_COMMON) \
+  $(LIBPINGVINCOIN_SERVER) \
+  $(LIBPINGVINCOIN_COMMON) \
   $(LIBUNIVALUE) \
-  $(LIBDOGECOIN_UTIL) \
-  $(LIBDOGECOIN_WALLET) \
-  $(LIBDOGECOIN_ZMQ) \
-  $(LIBDOGECOIN_CONSENSUS) \
-  $(LIBDOGECOIN_CRYPTO) \
+  $(LIBPINGVINCOIN_UTIL) \
+  $(LIBPINGVINCOIN_WALLET) \
+  $(LIBPINGVINCOIN_ZMQ) \
+  $(LIBPINGVINCOIN_CONSENSUS) \
+  $(LIBPINGVINCOIN_CRYPTO) \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
@@ -408,10 +408,10 @@ pingvincoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 pingvincoin_cli_LDADD = \
-  $(LIBDOGECOIN_CLI) \
+  $(LIBPINGVINCOIN_CLI) \
   $(LIBUNIVALUE) \
-  $(LIBDOGECOIN_UTIL) \
-  $(LIBDOGECOIN_CRYPTO)
+  $(LIBPINGVINCOIN_UTIL) \
+  $(LIBPINGVINCOIN_CRYPTO)
 
 pingvincoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
@@ -428,10 +428,10 @@ endif
 
 pingvincoin_tx_LDADD = \
   $(LIBUNIVALUE) \
-  $(LIBDOGECOIN_COMMON) \
-  $(LIBDOGECOIN_UTIL) \
-  $(LIBDOGECOIN_CONSENSUS) \
-  $(LIBDOGECOIN_CRYPTO) \
+  $(LIBPINGVINCOIN_COMMON) \
+  $(LIBPINGVINCOIN_UTIL) \
+  $(LIBPINGVINCOIN_CONSENSUS) \
+  $(LIBPINGVINCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
 pingvincoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)

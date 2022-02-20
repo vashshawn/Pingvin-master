@@ -1,33 +1,33 @@
 # /etc/conf.d/pingvincoind: config file for /etc/init.d/pingvincoind
 
 # Config file location
-#DOGECOIND_CONFIGFILE="/etc/pingvincoin/pingvincoin.conf"
+#PINGVINCOIND_CONFIGFILE="/etc/pingvincoin/pingvincoin.conf"
 
-# What directory to write pidfile to?  (created and owned by $DOGECOIND_USER)
-#DOGECOIND_PIDDIR="/var/run/pingvincoind"
+# What directory to write pidfile to?  (created and owned by $PINGVINCOIND_USER)
+#PINGVINCOIND_PIDDIR="/var/run/pingvincoind"
 
 # What filename to give the pidfile
-#DOGECOIND_PIDFILE="${DOGECOIND_PIDDIR}/pingvincoind.pid"
+#PINGVINCOIND_PIDFILE="${PINGVINCOIND_PIDDIR}/pingvincoind.pid"
 
 # Where to write pingvincoind data (be mindful that the blockchain is large)
-#DOGECOIND_DATADIR="/var/lib/pingvincoind"
+#PINGVINCOIND_DATADIR="/var/lib/pingvincoind"
 
 # User and group to own pingvincoind process
-#DOGECOIND_USER="pingvincoin"
-#DOGECOIND_GROUP="pingvincoin"
+#PINGVINCOIND_USER="pingvincoin"
+#PINGVINCOIND_GROUP="pingvincoin"
 
 # Path to pingvincoind executable
-#DOGECOIND_BIN="/usr/bin/pingvincoind"
+#PINGVINCOIND_BIN="/usr/bin/pingvincoind"
 
 # Nice value to run pingvincoind under
-#DOGECOIND_NICE=0
+#PINGVINCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-DOGECOIND_OPTS="-disablewallet"
+PINGVINCOIND_OPTS="-disablewallet"
 
 # The timeout in seconds OpenRC will wait for pingvincoind to terminate
 # after a SIGTERM has been raised.
 # Note that this will be mapped as argument to start-stop-daemon's
 # '--retry' option, which means you can specify a retry schedule
 # here. For more information see man 8 start-stop-daemon.
-DOGECOIND_SIGTERM_TIMEOUT=60
+PINGVINCOIND_SIGTERM_TIMEOUT=60

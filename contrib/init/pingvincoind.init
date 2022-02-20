@@ -19,14 +19,14 @@ fi
 RETVAL=0
 
 prog=pingvincoind
-# you can override the lockfile via DOGECOIND_LOCKFILE in /etc/sysconfig/pingvincoind
-lockfile=${DOGECOIND_LOCKFILE-/var/lock/subsys/pingvincoind}
+# you can override the lockfile via PINGVINCOIND_LOCKFILE in /etc/sysconfig/pingvincoind
+lockfile=${PINGVINCOIND_LOCKFILE-/var/lock/subsys/pingvincoind}
 
-# pingvincoind defaults to /usr/bin/pingvincoind, override with DOGECOIND_BIN
-pingvincoind=${DOGECOIND_BIN-/usr/bin/pingvincoind}
+# pingvincoind defaults to /usr/bin/pingvincoind, override with PINGVINCOIND_BIN
+pingvincoind=${PINGVINCOIND_BIN-/usr/bin/pingvincoind}
 
-# pingvincoind opts default to -disablewallet, override with DOGECOIND_OPTS
-pingvincoind_opts=${DOGECOIND_OPTS--disablewallet}
+# pingvincoind opts default to -disablewallet, override with PINGVINCOIND_OPTS
+pingvincoind_opts=${PINGVINCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
