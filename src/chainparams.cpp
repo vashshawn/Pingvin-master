@@ -411,7 +411,7 @@ public:
         std::cout << consensus.hashGenesisBlock.ToString() << std::endl;
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"));
+        assert(consensus.hashGenesisBlock == uint256S("0x54de0ae68df861a328ad7e3f72f3db56b342124424f803ad7bbd41609a59f1dd"));
         assert(genesis.hashMerkleRoot == uint256S("0xb8e51f89059f139a8b0a85e252e39b35c1e474350c6bb86705234c4d9532f7a8"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
@@ -424,7 +424,7 @@ public:
 
         checkpointData = (CCheckpointData){
                 boost::assign::map_list_of
-                        ( 0, uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"))
+                        ( 0, uint256S("0x54de0ae68df861a328ad7e3f72f3db56b342124424f803ad7bbd41609a59f1dd"))
         };
 
         chainTxData = ChainTxData{
