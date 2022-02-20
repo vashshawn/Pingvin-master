@@ -92,7 +92,7 @@ void static inline DeleteLock(void* cs) {}
 class CCriticalSection : public AnnotatedMixin<boost::recursive_mutex>
 {
 public:
-    ~CCriticalSection() {
+    ~CCriticalSection().join()  { //adding .join to fix assertion bug in runtime
         DeleteLock((void*)this);
     }
 };
