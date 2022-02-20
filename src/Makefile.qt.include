@@ -423,14 +423,14 @@ endif
 if TARGET_WINDOWS
   qt_pingvincoin_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_pingvincoin_qt_LDADD = qt/libpingvincoinqt.a $(LIBDOGECOIN_SERVER)
+qt_pingvincoin_qt_LDADD = qt/libpingvincoinqt.a $(LIBPINGVINCOIN_SERVER)
 if ENABLE_WALLET
-qt_pingvincoin_qt_LDADD += $(LIBDOGECOIN_WALLET)
+qt_pingvincoin_qt_LDADD += $(LIBPINGVINCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_pingvincoin_qt_LDADD += $(LIBDOGECOIN_ZMQ) $(ZMQ_LIBS)
+qt_pingvincoin_qt_LDADD += $(LIBPINGVINCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_pingvincoin_qt_LDADD += $(LIBDOGECOIN_CLI) $(LIBDOGECOIN_COMMON) $(LIBDOGECOIN_UTIL) $(LIBDOGECOIN_CONSENSUS) $(LIBDOGECOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_pingvincoin_qt_LDADD += $(LIBPINGVINCOIN_CLI) $(LIBPINGVINCOIN_COMMON) $(LIBPINGVINCOIN_UTIL) $(LIBPINGVINCOIN_CONSENSUS) $(LIBPINGVINCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 qt_pingvincoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
@@ -466,7 +466,7 @@ CLEAN_QT = $(nodist_qt_libpingvincoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.g
 CLEANFILES += $(CLEAN_QT)
 
 pingvincoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libpingvincoinqt_a_OBJECTS) $(qt_pingvincoin_qt_OBJECTS) qt/pingvincoin-qt$(EXEEXT) $(LIBDOGECOINQT)
+	rm -f $(CLEAN_QT) $(qt_libpingvincoinqt_a_OBJECTS) $(qt_pingvincoin_qt_OBJECTS) qt/pingvincoin-qt$(EXEEXT) $(LIBPINGVINCOINQT)
 
 pingvincoin_qt : qt/pingvincoin-qt$(EXEEXT)
 
