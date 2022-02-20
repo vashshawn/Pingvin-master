@@ -288,7 +288,7 @@ public:
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        vAlertPubKey = ParseHex("b8e51f89059f139a8b0a85e252e39b35c1e474350c6bb86705234c4d9532f7a8");
+        vAlertPubKey = ParseHex("042756726da3c7ef515d89212ee1705023d14be389e25fe15611585661b9a20021908b2b80a3c7200a0139dd2b26946606aab0eef9aa7689a6dc2c7eee237fa834");
         nDefaultPort = 61696;
         nPruneAfterHeight = 1000;
 
@@ -299,7 +299,7 @@ public:
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         assert(consensus.hashGenesisBlock == uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"));
-        assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb8e51f89059f139a8b0a85e252e39b35c1e474350c6bb86705234c4d9532f7a8"));
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
