@@ -158,6 +158,7 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        std::cout << consensus.hashGenesisBlock.ToString() << std::endl;
         assert(consensus.hashGenesisBlock == uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908"));
         assert(genesis.hashMerkleRoot == uint256S("0x4deff7a000dc7cf771403691ee2abd85a999e8fca38981e77f03ebe903c15323")); //28a0290adaafabe67a5db1c22036fb9f5f17988bd3691ca4c18f52c0e1b56a2c
 
