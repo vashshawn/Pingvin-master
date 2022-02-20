@@ -34,7 +34,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
     genesis.vtx.push_back(MakeTransactionRef(std::move(txNew)));
     genesis.hashPrevBlock.SetNull();
     genesis.hashMerkleRoot = BlockMerkleRoot(genesis);
-    std::cout << genesis.nTime << " " << genesis.nBits << " " << genesis.nNonce << " " << genesis.hashMerkleRoot << std::endl;
+    std::cout << genesis.nTime << " " << genesis.nBits << " " << genesis.nNonce << " " << std::endl;
     return genesis;
 }
 
