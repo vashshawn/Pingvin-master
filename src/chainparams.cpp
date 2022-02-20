@@ -221,7 +221,7 @@ public:
         consensus.nMajorityWindow = 1000;
         // BIP34 is never enforced in Dogecoin v2 blocks, so we enforce from v3
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38");
+        consensus.BIP34Hash = uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936");
         consensus.BIP65Height = 0; // 955bd496d23790aba1ecfacb722b089a6ae7ddabaedf7d8fb0878f48308a71f9
         consensus.BIP66Height = 0; // 21b8b97dcdb94caa67c7f8f6dbf22e61e0cfe0e46e1fff3528b22864659e9b38 - this is the last block that could be v2, 1900 blocks past the last v2 block
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
@@ -298,7 +298,7 @@ public:
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0xbb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e"));
+        assert(consensus.hashGenesisBlock == uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"));
         assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
         vSeeds.clear();
@@ -320,7 +320,7 @@ public:
 
         checkpointData = (CCheckpointData) {
                 boost::assign::map_list_of
-                        ( 0, uint256S("0xbb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e"))
+                        ( 0, uint256S("0x3392ab705480897c4a49059ca708273425e4a612b6bd3c2298f3db459b4ed936"))
         };
 
         chainTxData = ChainTxData{
