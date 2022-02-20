@@ -152,9 +152,10 @@ public:
         nDefaultPort = 50696;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1645127935, 2085885790, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1645127935, 2085885799, 0x1e0ffff0, 1, 50 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
+        printf(CreateGenesisBlock(1645127935, 2085885799, 0x1e0ffff0, 1, 50 * COIN));
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         assert(consensus.hashGenesisBlock == uint256S("0xc3b67565a6258e4af10ad085130176dc7bbd90ff0d6c78ced84abdcc2d48d908"));
