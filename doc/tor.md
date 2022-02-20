@@ -43,7 +43,7 @@ config file):
 
 	HiddenServiceDir /var/lib/tor/pingvincoin-service/
 	HiddenServicePort 50696 127.0.0.1:50696
-	HiddenServicePort 44556 127.0.0.1:44556
+	HiddenServicePort 61696 127.0.0.1:61696
 
 The directory can be different of course, but (both) port numbers should be equal to
 your pingvincoind's P2P listen port (50696 by default).
