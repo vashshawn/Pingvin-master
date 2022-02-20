@@ -48,7 +48,7 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "pingvincoin"
+#define QAPP_ORG_NAME "Pingvincoin"
 #define QAPP_ORG_DOMAIN "pingvincoin.org"
 #define QAPP_APP_NAME_DEFAULT "Pingvincoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Pingvincoin-Qt-testnet"

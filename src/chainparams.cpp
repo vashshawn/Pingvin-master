@@ -423,8 +423,8 @@ public:
         fMineBlocksOnDemand = true;
 
         checkpointData = (CCheckpointData){
-                boost::assign::map_list_of
-                        ( 0, uint256S("0x54de0ae68df861a328ad7e3f72f3db56b342124424f803ad7bbd41609a59f1dd"))
+            boost::assign::map_list_of
+            ( 0, uint256S("0x54de0ae68df861a328ad7e3f72f3db56b342124424f803ad7bbd41609a59f1dd"))
         };
 
         chainTxData = ChainTxData{

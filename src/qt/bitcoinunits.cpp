@@ -46,7 +46,7 @@ QString BitcoinUnits::name(int unit)
     {
     case MBTC: return QString("MPING");
     case kBTC: return QString("kPING");
-    case BTC: return QString("Ping");
+    case BTC: return QString("PING");
     case mBTC: return QString("mPING");
     case uBTC: return QString::fromUtf8("μPING");
     default: return QString("???");

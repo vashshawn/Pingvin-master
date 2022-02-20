@@ -57,8 +57,8 @@ parts:
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/pingvincoind
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/pingvincoin-qt
       install -m 0755 -D -t $SNAPCRAFT_PART_INSTALL/bin pingvincoin-${SNAPCRAFT_PROJECT_VERSION}/bin/pingvincoin-cli
-      wget https://raw.githubusercontent.com/pingvincoin/pingvincoin/master/share/pixmaps/pingvincoin128.png
-      install -m 0644 -D -t $SNAPCRAFT_PART_INSTALL/share/pixmaps pingvincoin128.png
+      wget https://raw.githubusercontent.com/pingvincoin/pingvincoin/master/share/pixmaps/dogecoin128.png
+      install -m 0644 -D -t $SNAPCRAFT_PART_INSTALL/share/pixmaps dogecoin128.png
     build-packages:
       - unzip
       - wget
